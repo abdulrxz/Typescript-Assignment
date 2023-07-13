@@ -1,0 +1,17 @@
+const dinnerinvite:string[]=["Ahmad","Hassan","Riyan"];
+
+const notcoming:string=dinnerinvite[2];
+console.log(`\n${notcoming} can't make it to the dinner.`);
+
+dinnerinvite[2]="Usman"
+
+console.log("\nGood news! We found a bigger dinner table.\n");
+
+dinnerinvite.unshift("Abdullah")
+dinnerinvite.splice(Math.ceil(dinnerinvite.length/2),0,"Arham")
+dinnerinvite.push("Rafay")
+
+
+for(let i=0;i<dinnerinvite.length;i++){
+    console.log(`AOA ${dinnerinvite[i]}, I would like to invite you for our annual dinner on Saturday.\n`);
+}
