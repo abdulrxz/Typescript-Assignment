@@ -1,0 +1,4 @@
+const dinnerinvite:string[]=["Ahmad","Hassan","Riyan"];
+for(let i=0;i<dinnerinvite.length;i++){
+    console.log(`AOA ${dinnerinvite[i]}, I would like to have you for our annual dinner on Saturday.`);
+}
