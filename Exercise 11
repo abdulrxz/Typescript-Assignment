@@ -1,4 +1,4 @@
 const names:string[]=["Ahmad","Faisal","Ali","Riyan","Arslan"];
 for(let i=0;i<names.length;i++){
-    console.log("Hello "+names[i]);
+    console.log(names[i]);
 }
