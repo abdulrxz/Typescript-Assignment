@@ -1,0 +1,10 @@
+const dinnerinvite:string[]=["Ahmad","Hassan","Riyan"];
+
+const notcoming:string=dinnerinvite[2];
+console.log(`\n${notcoming} can't make it to the dinner.\n`);
+
+dinnerinvite[2]="Usman"
+
+for(let i=0;i<dinnerinvite.length;i++){
+    console.log(`AOA ${dinnerinvite[i]}, I would like to invite you for our annual dinner on Saturday.`);
+}
