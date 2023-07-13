@@ -1,0 +1,5 @@
+const whitespacename: string = "\t\n   John Doe    \n\t";
+console.log(`Name with whitespace: "${whitespacename}"`);
+
+const strippedname: string = whitespacename.trim();
+console.log(`Stripped name: "${strippedname}"`);
