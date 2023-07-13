@@ -1,0 +1,17 @@
+const dinnerinvite:string[]=["Ahmad","Hassan","Riyan","Abdullah","Arham","Rafay"];
+
+console.log("\nSorry everyone, due to unforeseen circumstances we can only invite two people for dinner.");
+
+while(dinnerinvite.length>2){
+    const guestremoved:string=dinnerinvite.pop()!;
+    console.log(`\nSorry ${guestremoved}, we couldn't make place for you.`);
+}
+
+for(let i=0;i<dinnerinvite.length;i++){
+    console.log(`\nDear ${dinnerinvite[i]}, you are still invited for the dinner on Saturday.`);
+}
+
+dinnerinvite.pop();
+dinnerinvite.pop();
+
+console.log("\nDinner guests:",dinnerinvite);
