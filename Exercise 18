@@ -1,0 +1,15 @@
+const visitplaces:string[]=["Russia","America","Netherland","Saudia","Qatar"];
+
+console.log("Original Order",visitplaces);
+console.log("Alphabetical Order",[...visitplaces].sort());
+console.log("Original Order",visitplaces);
+console.log("Reverse Alphabetical Order",[...visitplaces].sort().reverse());
+console.log("Original Order",visitplaces);
+visitplaces.reverse();
+console.log("Reverse Order",visitplaces);
+visitplaces.reverse();
+console.log("Original Order",visitplaces);
+visitplaces.sort();
+console.log("Alphabetical Order",visitplaces);
+visitplaces.sort().reverse();
+console.log("Reverse Alphabetical",visitplaces);
