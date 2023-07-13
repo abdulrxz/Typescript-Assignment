@@ -1,0 +1,10 @@
+const fname: string ="Abdul Rehman";
+
+const lowercasename:string= fname.toLowerCase();
+console.log(lowercasename);
+
+const uppercasename:string= fname.toUpperCase();
+console.log(uppercasename);
+
+const titlecasename:string= fname.toLowerCase().replace(/(?:^|\s)\w/g, (match) => match.toUpperCase());
+console.log(titlecasename);
