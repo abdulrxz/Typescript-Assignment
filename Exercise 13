@@ -1,0 +1,4 @@
+const modeoftransport:string[]=["Honda Civic","Yamaha MT-09","Toyota Mark-X","Private yatch"];
+for(let i=0;i<modeoftransport.length;i++){
+    console.log(`I would like to own a ${modeoftransport[i]} someday.`);
+}
