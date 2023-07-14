@@ -1,0 +1,8 @@
+const pakrivers: string[] = [
+    "Ravi",
+    "Indus",
+    "Jhelum",
+    "Chenab",
+    "Sutlej"
+  ];
+  console.log(pakrivers)
