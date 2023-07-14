@@ -1,0 +1,9 @@
+const dinnerguests: string[] = [
+    "Isaac Newton",
+    "Albert Einstein",
+    "Galileo Galilei",
+    "Leonardo da Vinci",
+    "Nelson Mandela",
+    "Ada Lovelace"
+  ];
+  console.log("\n Number of people invited to the dinner : "+dinnerguests.length)
