@@ -1,0 +1,8 @@
+const paknature= {
+    River:"Ravi",
+    Mountain:"K2",
+    Desert:"Thal",
+    City:"Lahore",
+    Capital:"Islamabad"
+};
+ 
